@@ -1,0 +1,36 @@
+.battery-meta-box {
+    padding: 12px;
+}
+
+.battery-meta-box p {
+    margin: 0 0 20px;
+}
+
+.battery-meta-box label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.battery-meta-box select {
+    width: 100%;
+    max-width: 25em;
+    margin-top: 5px;
+}
+
+.battery-meta-box input[type="url"] {
+    width: 100%;
+    max-width: 25em;
+    margin-top: 5px;
+}
+
+/* Add some spacing between radio options */
+.battery-meta-box input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Style the radio option labels */
+.battery-meta-box input[type="radio"] + label {
+    margin-right: 15px;
+    font-weight: normal;
+} 

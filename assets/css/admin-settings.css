@@ -1,0 +1,72 @@
+.battery-options-container {
+    max-width: 800px;
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.options-group {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.options-group:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.options-group h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    color: #23282d;
+    font-size: 1.3em;
+}
+
+.option-list {
+    margin-bottom: 15px;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.option-item input[type="text"] {
+    flex: 1;
+}
+
+.option-item .remove-option {
+    color: #dc3232;
+}
+
+.option-item .remove-option:hover {
+    color: #dc3232;
+    border-color: #dc3232;
+}
+
+.submit-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.submit-container .spinner {
+    float: none;
+    margin: 0;
+}
+
+.notice.inline {
+    margin: 0;
+    display: none;
+} 
